@@ -7,4 +7,4 @@ const phonebook = {
 
 const findPhoneByName = (name) => phonebook[name];
 
-module.exports = { phonebook, findPhoneByName };
+console.log(findPhoneByName('Marcus'));

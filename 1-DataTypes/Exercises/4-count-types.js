@@ -9,5 +9,5 @@ const countTypesInArray = (arr) => {
   }
   return hash;
 };
-
-module.exports = { countTypesInArray };
+const sampleArray = [true, 'hello', 5, 12, -200, false, false, 'word'];
+console.log(countTypesInArray(sampleArray));

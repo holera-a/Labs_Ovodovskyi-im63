@@ -9,4 +9,4 @@ const range = (start, end) => {
   return result;
 };
 
-module.exports = { range };
+console.log(range(15, 30));

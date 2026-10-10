@@ -5,5 +5,6 @@ const inc = (obj) => {
     obj.n++;
   }
 };
-
-module.exports = { inc };
+const obj = { n: 5 };
+inc(obj);
+console.log(obj);

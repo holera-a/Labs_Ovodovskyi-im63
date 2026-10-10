@@ -10,4 +10,4 @@ const fn = () => {
   person = { name: 'Ivan Ovodovskyi IM-63' };
 };
 
-module.exports = { fn };
+fn();

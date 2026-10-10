@@ -10,4 +10,6 @@ const generateKey = (length, possible) => {
   return key;
 };
 
-module.exports = { generateKey };
+const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+const key = generateKey(16, characters);
+console.log(key);

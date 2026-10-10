@@ -2,4 +2,4 @@
 
 const createUser = (name, city) => ({ name, city });
 
-module.exports = { createUser };
+console.log(createUser('Marcus Aurelius', 'Roma'));

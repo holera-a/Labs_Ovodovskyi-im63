@@ -5,4 +5,4 @@ const fn = () => {
   var a = 10;
 };
 
-module.exports = { fn };
+fn();
